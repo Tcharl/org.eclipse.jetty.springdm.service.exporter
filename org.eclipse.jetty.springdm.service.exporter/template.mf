@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: ${project.artifactId}
+Bundle-Vendor: Osgiliath Inc.
+Bundle-SymbolicName: ${project.groupId}_${project.artifactId}
+Bundle-Version: ${project.version}
+Bundle-Activator: org.springframework.osgi.web.jetty8.internal.Activator
+Import-Package: org.eclipse.jetty.util.component, org.eclipse.jetty.server, org.eclipse.jetty.server.handler, org.eclipse.jetty.util.log, org.eclipse.jetty.xml, org.osgi.framework, org.eclipse.jetty.server.nio, org.eclipse.jetty.util, org.eclipse.jetty.util.thread

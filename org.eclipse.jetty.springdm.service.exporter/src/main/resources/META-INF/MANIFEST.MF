@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Export-Package: org.springframework.osgi.web.jetty8.internal;version="
+ 0.0.1";uses:="org.eclipse.jetty.server,org.eclipse.jetty.util.log,org
+ .eclipse.jetty.xml,org.osgi.framework"
+Bundle-Vendor: Osgiliath Inc.
+Bundle-Version: 0.0.1
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: org.eclipse.jetty.springdm.service.exporter
+Bundle-ManifestVersion: 2
+Bundle-Activator: org.springframework.osgi.web.jetty8.internal.Activat
+ or
+Bundle-SymbolicName: org.eclipse.jetty_org.eclipse.jetty.springdm.serv
+ ice.exporter
+Import-Package: org.eclipse.jetty.server,org.eclipse.jetty.server.hand
+ ler,org.eclipse.jetty.server.nio,org.eclipse.jetty.util,org.eclipse.j
+ etty.util.component,org.eclipse.jetty.util.log,org.eclipse.jetty.util
+ .thread,org.eclipse.jetty.xml,org.osgi.framework
+
